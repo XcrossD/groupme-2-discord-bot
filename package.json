@@ -2,8 +2,12 @@
   "name": "groupme-2-discord-bot",
   "version": "1.0.0",
   "description": "A bot that cross posts groupme images to discord",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
