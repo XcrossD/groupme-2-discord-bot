@@ -1,0 +1,22 @@
+{
+  "name": "groupme-2-discord-bot",
+  "version": "1.0.0",
+  "description": "A bot that cross posts groupme images to discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XcrossD/groupme-2-discord-bot.git"
+  },
+  "author": "Herbert Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XcrossD/groupme-2-discord-bot/issues"
+  },
+  "homepage": "https://github.com/XcrossD/groupme-2-discord-bot#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
