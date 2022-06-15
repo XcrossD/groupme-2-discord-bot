@@ -9,8 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/groupme', (req, res) => {
-  console.log(req)
-  console.log(req.body)
+  console.log(req.body.attachments)
   res.send('groupme route received post ping')
 })
 
